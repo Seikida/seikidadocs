@@ -243,6 +243,7 @@ body {
         flex: 0 0 auto;
         margin-right: 0.5rem;
         user-select: none;
+        padding-top: 2px;
       }
 
       > div {

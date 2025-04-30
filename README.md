@@ -1,8 +1,8 @@
+**⚠️ Warning:** This project is currently in **active development** and is **not yet functional**. The codebase is unstable, features are incomplete, and breaking changes may occur without notice. 
+
 # Seikida Docs
 A Simple Google Docs Clone
-
-**⚠️ Warning:** This project is currently in **active development** and is **not yet functional**. The codebase is unstable, features are incomplete, and breaking changes may occur without notice.  
-
+ 
 ## Getting Started
 
 First, run the development server:
