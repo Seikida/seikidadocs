@@ -21,6 +21,8 @@ import TextAlign from '@tiptap/extension-text-align';
 
 import { useEditorStore } from '@/app/store/use-editor-store';
 
+import { fontSizeExtension } from '@/extensions/font-size';
+
 export const Editor = () => {
 
     const { setEditor } = useEditorStore();
@@ -58,6 +60,7 @@ export const Editor = () => {
         },
         extensions: [
             StarterKit,
+            fontSizeExtension,
             TaskList,
             TaskItem.configure({
                 nested: true,
