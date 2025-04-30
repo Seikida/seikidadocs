@@ -16,6 +16,7 @@ import FontFamily from '@tiptap/extension-font-family';
 import TextStyle from '@tiptap/extension-text-style';
 import { Color } from '@tiptap/extension-color';
 import Highlight from '@tiptap/extension-highlight';
+import Link from '@tiptap/extension-link';
 
 import { useEditorStore } from '@/app/store/use-editor-store';
 
@@ -73,6 +74,12 @@ export const Editor = () => {
             TextStyle,
             Color,
             Highlight.configure({ multicolor: true }),
+            Link.configure({
+                openOnClick: false,
+                autolink: true,
+                defaultProtocol: 'https',
+                protocols: ['http', 'https']
+            }),
         ],
         immediatelyRender: false,
         content: `<p>Hello World! 🌎️</p>

@@ -108,6 +108,17 @@ body {
     }
   }
 
+  /* Link styles */
+  /* https://tiptap.dev/docs/editor/extensions/marks/link */
+  a {
+    @apply text-blue-600;
+    cursor: pointer;
+
+    &:hover {
+      @apply underline;
+    }
+  }
+
   /* Table-specific styling */
   /* https://tiptap.dev/docs/editor/extensions/nodes/table */
   table {
