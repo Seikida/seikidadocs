@@ -4,7 +4,7 @@
   <img src="https://github.com/Seikida/seikidadocs/blob/main/public/logo.svg?raw=true" width="200" alt="DeepSeek-R1" />
 </div>
 
-# Seikida Docs
+# Seikida Docs (Tsubachan Editor)
 A Simple Google Docs Clone
  
 ## Getting Started
