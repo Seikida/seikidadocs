@@ -1,5 +1,9 @@
 **⚠️ Warning:** This project is currently in **active development** and is **not yet functional**. The codebase is unstable, features are incomplete, and breaking changes may occur without notice. 
 
+<div align="center">
+  <img src="https://github.com/Seikida/seikidadocs/blob/main/public/logo.svg?raw=true" width="200" alt="DeepSeek-R1" />
+</div>
+
 # Seikida Docs
 A Simple Google Docs Clone
  

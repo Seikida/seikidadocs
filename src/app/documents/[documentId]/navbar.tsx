@@ -52,13 +52,13 @@ export const Navbar = () => {
                                 <MenubarTrigger className="text-sm font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">
                                     File
                                 </MenubarTrigger>
-                                <MenubarContent className="print:hidden">
+                                <MenubarContent className="print:hidde">
                                     <MenubarSub>
                                         <MenubarSubTrigger>
                                             <FileIcon className="size-4 mr-2" />
                                             Save
                                         </MenubarSubTrigger>
-                                        <MenubarSubContent>
+                                        <MenubarSubContent> {/* className="absolute top-[-5px]" */}
                                             <MenubarItem>
                                                 <FileJsonIcon className="size-4 mr-2" />
                                                 JSON
