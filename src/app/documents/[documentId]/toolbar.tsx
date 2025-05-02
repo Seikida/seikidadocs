@@ -602,12 +602,12 @@ export const Toolbar = () => {
            }, 
            {
             label: "Redo",
-            icon: PrinterIcon,
+            icon: Redo2Icon,
             onClick: () => editor?.chain().focus().redo().run(),
            },
            {
             label: "Print",
-            icon: Redo2Icon,
+            icon: PrinterIcon,
             onClick: () => window.print(),
            },
            {
@@ -639,7 +639,7 @@ export const Toolbar = () => {
                 onClick: () => editor?.chain().focus().toggleUnderline().run(),
             },
             {
-                label: "Strike",
+                label: "Strikethrough",
                 icon: StrikethroughIcon,
                 isActive: editor?.isActive("strike"),
                 onClick: () => editor?.chain().focus().toggleStrike().run(),
