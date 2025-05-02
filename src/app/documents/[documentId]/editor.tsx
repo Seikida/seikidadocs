@@ -24,6 +24,8 @@ import { useEditorStore } from '@/app/store/use-editor-store';
 import { FontSizeExtension } from '@/extensions/font-size';
 import { LineHeightExtension } from '@/extensions/line-height';
 
+import { Ruler } from './ruler';
+
 export const Editor = () => {
 
     const { setEditor } = useEditorStore();
@@ -87,7 +89,7 @@ export const Editor = () => {
             Color,
             Highlight.configure({ multicolor: true }),
             Link.configure({
-                openOnClick: false,
+                openOnClick: false, // TO DO & MEMO: Allow links to open another page, but for security reasons, set up a modal that informs the user to check the URL. Never visit a suspicious site. Regarding the SEO version of the document: disable the option to open another page 
                 autolink: true,
                 defaultProtocol: 'https',
                 protocols: ['http', 'https']
@@ -113,6 +115,7 @@ export const Editor = () => {
 
     return (
         <div className="size-full overflow-x-auto bg-[#F9FBFD] px-4 print:pr-0 print:bg-white print:overflow-visible">
+            <Ruler />
             <div className="min-w-max flex justify-center w-[816px] py-4 print:py-0 mx-auto print:w-full print:min-w-0">
                 <EditorContent editor={editor} />
             </div>
