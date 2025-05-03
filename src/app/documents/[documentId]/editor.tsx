@@ -96,6 +96,7 @@ export const Editor = () => {
             }),
         ],
         immediatelyRender: false,
+        /*
         content: `<p>Hello World! 🌎️</p>
         <table>
             <tbody>
@@ -111,6 +112,7 @@ export const Editor = () => {
                 </tr>
             </tbody>
         </table>`,
+        */
     })
 
     return (
