@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { Navbar } from "./navbar";
+import { TemplatesGallery } from "./templates-gallery";
 
 const Home = () => {
   return (
@@ -10,8 +11,10 @@ const Home = () => {
         <Navbar />
       </div>
       <div className="mt-16">
-        <Image src="/logo.svg" alt="Tsubachan Editor" width={211/2} height={157/2} />
-        <div>Click　<Link href="/documents/123"><span className="text-blue-500 underline">here</span></Link>　to go to document id</div>
+        <div className="p-4">
+          <Image src="/logo.svg" alt="Tsubachan Editor" width={211/2} height={157/2} />
+        </div>
+        <TemplatesGallery />
       </div>
     </div>
   )
