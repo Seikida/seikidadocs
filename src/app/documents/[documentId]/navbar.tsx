@@ -42,7 +42,7 @@ export const Navbar = () => {
         <nav className="flex items-center justify-between">
             <div className="flex gap-2 items-center">
                 <Link href="/">
-                    <Image src="/logo.svg" alt="Seikida Docs" width={48} height={36} />
+                    <Image src="/logo.svg" alt="Tsubachan Editor" width={48} height={36} />
                 </Link>
                 <div className="flex flex-col">
                     <DocumentInput />

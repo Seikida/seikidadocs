@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Seikida Docs ",
+  title: "Tsubachan Editor",
   description: "A Simple Google Docs Clone",
 };
 
